@@ -120,7 +120,7 @@ coordinates that define it. See `GH
 Specific tasks:
 
 -  Add an ``indexes`` attribute to ``xarray.Dataset`` and
-   ``xarray.Dataset``, as dictionaries that map from coordinate names to
+   ``xarray.DataArray``, as dictionaries that map from coordinate names to
    xarray index objects.
 -  Use the new index interface to write wrappers for ``pandas.Index``,
    ``pandas.MultiIndex`` and ``scipy.spatial.KDTree``.
